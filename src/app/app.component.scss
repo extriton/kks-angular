@@ -1,0 +1,162 @@
+:host {
+    .wrapper {
+        padding-top: 55px;
+        &__header {
+            position: fixed;
+            left: 0;
+            top: 0;
+            right: 0;
+            min-height: 55px;
+            .logo {
+                display: block;
+                float: left;
+                height: 55px;
+                line-height: 50px;
+                text-align: left;
+                padding-left: 15px;
+                width: 155px;
+                box-sizing: border-box;
+                img {
+                    width: 120px;
+                    vertical-align: middle;
+                }
+            }
+            .navigation {
+                display: inline-block;
+                height: 55px;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                li {
+                    display: inline-block;
+                    margin: 0;
+                    padding: 0;
+                    .menu-link {
+                        text-align: center;
+                        position: relative;
+                        color: #fff;
+                        -webkit-transition: all .2s;
+                        transition: all .2s;
+                        display: block;
+                        width: 90px;
+                        padding-top: 11px;
+                        padding-bottom: 7px;
+                        height: 55px;
+                        text-decoration: none;
+                        font-size: 11px;
+                        box-sizing: border-box;
+                        .menu-icon {
+                            width: 20px;
+                            height: 20px;
+                            margin: 0 auto;
+                        }
+                        .menu-text {
+                            color: #d0e3ed;
+                            line-height: 1.42;
+                        }
+                        .analytic-icon {
+                            background: url(/assets/img/icons/analytics-1.svg);
+                            background-size: cover;
+                        }
+                        .orders-icon {
+                            width: 17px;
+                            background: url(/assets/img/icons/orders-1.svg);
+                            background-size: cover;
+                        }
+                        .shop-icon {
+                            background: url(/assets/img/icons/shop-1.svg);
+                            background-size: cover;
+                        }
+                        .store-icon {
+                            background: url(/assets/img/icons/store-1.svg);
+                            background-size: cover;
+                        }
+                        .sellers-icon {
+                            width: 32px;
+                            background: url(/assets/img/icons/sellers-1.svg);
+                            background-size: cover;
+                        }
+                        .cart-icon {
+                            background: url(/assets/img/icons/cart-1.svg);
+                            background-size: cover;
+                        }
+                        .finance-icon {
+                            width: 17px;
+                            background: url(/assets/img/icons/finance-1.svg);
+                            background-size: cover;
+                        }
+                        .comp-icon {
+                            width: 23px;
+                            background: url(/assets/img/icons/compendiums-1.svg);
+                            background-size: cover;
+                        }
+                        &.active {
+                            .menu-text {
+                                color: #fff;
+                            }
+                            .analytic-icon {
+                                background: url(/assets/img/icons/analytics-2.svg);
+                                background-size: cover;
+                            }
+                            .orders-icon {
+                                background: url(/assets/img/icons/orders-2.svg);
+                                background-size: cover;
+                            }
+                            .shop-icon {
+                                background: url(/assets/img/icons/shop-2.svg);
+                                background-size: cover;
+                            }
+                            .store-icon {
+                                background: url(/assets/img/icons/store-2.svg);
+                                background-size: cover;
+                            }
+                            .sellers-icon {
+                                background: url(/assets/img/icons/sellers-2.svg);
+                                background-size: cover;
+                            }
+                            .cart-icon {
+                                background: url(/assets/img/icons/cart-2.svg);
+                                background-size: cover;
+                            }
+                            .finance-icon {
+                                background: url(/assets/img/icons/finance-2.svg);
+                                background-size: cover;
+                            }
+                            .comp-icon {
+                                background: url(/assets/img/icons/compendiums-2.svg);
+                                background-size: cover;
+                            }
+                            &::before {
+                                content: "";
+                                display: block;
+                                height: 3px;
+                                left: 0;
+                                right: 0;
+                                background-color: #43c86f;
+                                opacity: .9;
+                                position: absolute;
+                                top: 0;
+                            }
+                        }
+                        &:hover {
+                            .menu-text {
+                                color: #fff;
+                            }
+                            &::before {
+                                content: "";
+                                display: block;
+                                height: 3px;
+                                left: 0;
+                                right: 0;
+                                background-color: #43c86f;
+                                opacity: .9;
+                                position: absolute;
+                                top: 0;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

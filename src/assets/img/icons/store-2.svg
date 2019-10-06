@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="520px" height="522px" viewBox="0 0 520 522" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>box</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="box" fill-rule="nonzero">
+            <polygon id="Shape" fill="#FFA900" points="260 0 389.728601 48.598778 520 96.802444 389.728601 145.401222 260 194 130.271399 145.401222 0 96.802444 130.271399 48.598778"></polygon>
+            <polygon id="Shape" fill="#FFDB69" points="422 177.883721 422 134 356 158.116279 356 202 392.3 169.976744"></polygon>
+            <polygon id="Shape" fill="#FF8800" points="259 192.615995 259 522 518 425.776753 518 96 420.672234 132.525559 418.509395 133.311055 418.509395 175.727833 391.473904 168.265622 355.787056 200.078206 355.787056 156.483184"></polygon>
+            <polygon id="Shape" fill="#D24B1D" points="259 522 259 192.55582 129.770355 144.27791 0 96 0 425.836684"></polygon>
+            <polygon id="Shape" fill="#FFDB69" points="98 60.8436482 356.983278 157 419.832776 133.938111 422 133.156352 163.016722 37 130.508361 49.1172638"></polygon>
+        </g>
+    </g>
+</svg>

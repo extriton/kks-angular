@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="450px" height="492px" viewBox="0 0 450 492" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>stack-overflow</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="stack-overflow">
+            <path d="M373.934697,491.72375 L11.5465068,492 C0.32272845,492 0.32272845,491.72375 0.32272845,491.72375 L0,290 L38.7632727,290 L38.7632727,459.402522 L335.888599,459.402522 L335.888599,290 L374.257426,290 L374.257426,482.14709 C374.257426,491.72375 373.934697,491.72375 373.934697,491.72375 Z" id="Path" fill="#ECF4F7"></path>
+            <polygon id="Path" fill="#FFA900" points="297.226225 425.723476 71.2871287 426 71.2871287 384.582907 297.226225 384.306383"></polygon>
+            <polygon id="Path" fill="#FFA900" points="302.667091 331.398197 298.514851 372.538767 73.1842726 354.718356 77.6586685 313.577786"></polygon>
+            <polygon id="Path" fill="#FFA900" points="317.701061 277.076668 305.208548 317.172593 86.9296169 266.937468 99.3863351 226.872268"></polygon>
+            <polygon id="Path" fill="#FEE38E" points="346.122424 229.883303 321.495349 265.524125 126.877024 166.805193 151.468304 131.133646 346.122424 229.883303"></polygon>
+            <polygon id="Path" fill="#FEE38E" points="393.729997 200.817598 354.140542 224.137757 226.566565 63.9384061 266.513972 40.3109989"></polygon>
+            <polygon id="Path" fill="#ECF4F7" points="450 191.231446 402.356632 198.359611 363.697851 7.12816444 411.305424 0"></polygon>
+        </g>
+    </g>
+</svg>
