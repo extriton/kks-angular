@@ -11,7 +11,12 @@ import { StoreComponent } from './store/store.component';
 import { SellersComponent } from './sellers/sellers.component';
 import { CartComponent } from './cart/cart.component';
 import { FinanceComponent } from './finance/finance.component';
+
 import { CompComponent } from './comp/comp.component';
+import { CompDefaultComponent } from './comp/comp.default.component';
+import { CompCounteragentsComponent } from './comp/comp.counteragents.component';
+
+import { SubmenuComponent } from './shared/submenu.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +28,10 @@ import { CompComponent } from './comp/comp.component';
     SellersComponent,
     CartComponent,
     FinanceComponent,
-    CompComponent
+    CompComponent,
+    CompDefaultComponent,
+    CompCounteragentsComponent,
+    SubmenuComponent,
   ],
   imports: [
     BrowserModule,

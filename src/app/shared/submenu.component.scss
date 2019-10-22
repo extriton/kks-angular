@@ -1,0 +1,40 @@
+:host {
+    .sub-menu {
+        margin: 0;
+        padding-left: 15px;
+        padding-right: 20px;
+        background-color: #fff;
+        overflow: hidden;
+        height: 35px;
+        -webkit-box-shadow: 0 0 2px 0 rgba(0,0,0,.1), 0 2px 2px 0 rgba(0,0,0,.18);
+        box-shadow: 0 0 2px 0 rgba(0,0,0,.1), 0 2px 2px 0 rgba(0,0,0,.18);
+        li {
+            box-sizing: border-box;
+            display: block;
+            float: left;
+            text-align: center;
+            font-size: 11px;
+            .submenu-link {
+                float: left;
+                font-size: 12px;
+                padding: 5px 10px;
+                color: #000;
+                vertical-align: middle;
+                line-height: 25px;
+                position: relative;
+                .menu-icon {
+                    color: #186999;
+                    font-size: 18px;
+                    margin-right: 8px;
+                    vertical-align: middle;
+                    margin-top: -2px;
+                }
+            }
+            &:hover {
+                .submenu-link {
+                    background-color: rgba(0, 0, 0, .05);
+                }
+            }
+        }
+    }
+}

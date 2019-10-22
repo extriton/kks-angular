@@ -6,5 +6,16 @@ import { Component } from '@angular/core';
   styleUrls: ['./comp.component.scss']
 })
 export class CompComponent {
-  title: string = 'CompComponent';
+  submenuItems: any[] = [
+    {
+      link: '/compendiums',
+      iconClass: 'nomenclatures-icon',
+      itemText: 'Номенклатуры',
+    },
+    {
+      link: 'counteragents',
+      iconClass: 'counteragents-icon',
+      itemText: 'Контрагенты',
+    },
+  ];
 }

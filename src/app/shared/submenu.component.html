@@ -1,0 +1,8 @@
+<ul class="sub-menu">
+    <li *ngFor="let item of submenuItems">
+        <a class="menu-link" routerLink="{{ item.link }}" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}">
+            <i class="menu-icon" [ngClass]="true ? item.iconClass : ''"></i>
+            <span class="menu-text">{{ item.itemText }}</span>
+        </a>
+    </li>
+</ul>
